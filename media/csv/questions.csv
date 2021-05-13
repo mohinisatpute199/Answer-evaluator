@@ -1,3 +1,69 @@
 ﻿Index,Question,Answer
 1,What is operating system?,"An operating system (OS)  is software that supports a computer functions, such as controlling    hardware and system applications.it also provide common services for computer program and acts as an intermediary between a user of a computer and the computer hardware."
-2,What is computer system,"Computer System are collection of hardware and software that are designed to receive, process, manages the instructions given by user and returns output in the form of human readable. Hardware - it is a physical part for instance input devices, output devices, CPU (Central Processing Unit) and storage devices"
+2,What is computer system?,"Computer System are collection of hardware and software that are designed to receive, process, manages the instructions given by user and returns output in the form of human readable. Hardware - it is a physical part for instance input devices, output devices, CPU (Central Processing Unit) and storage devices"
+3,what is network layer in OSI module?,"The Network Layer is the third layer of the OSI model It handles the service requests from the transport layer and further forwards the service request to the data link layer.
+The network layer translates the logical addresses into physical addresses
+It determines the route from the source to the destination and also manages the traffic problems such as switching, routing and controls the congestion of data packets.
+The main role of the network layer is to move the packets from sending host to the receiving host.
+The main functions performed by the network layer are:
+Routing: When a packet reaches the router's input link, the router will move the packets to the router's output link. For example, a packet from S1 to R1 must be forwarded to the next router on the path to S2.
+Logical Addressing: The data link layer implements the physical addressing and network layer implements the logical addressing. Logical addressing is also used to distinguish between source and destination system. The network layer adds a header to the packet which includes the logical addresses of both the sender and the receiver.
+Internetworking: This is the main role of the network layer that it provides the logical connection between different types of networks.
+Fragmentation: The fragmentation is a process of breaking the packets into the smallest individual data units that travel through different networks."
+4,What is AI?,"AI is a computer program. How we human beings can learn by observing things, similarly machines too learn from surroundings and are able to think on their own.
+Normally when we write a program in the system, it gives us output but AI is not like that. When it does things repeatedly it will think and do that work in a better way, in lesser time! What if something like this machine starting to think by itself and learn more things how would be our future
+Now you may ask – so what difference does it bring to my life! I would like to tell you all that in daily life we are using AI all the time.
+I was typing this answer my computer system all the time was recommending how to complete my sentences even before each sentence was completed.
+Another common example is Gmail. My Gmail account emails are categorized as primary, social, promotional. Who is behind that? It is none other than machine learning. It also filters spam emails and sends me a notification when I receive a mail of an ad. Machine learning detects spam emails by recognizing and understanding the coding patterns.
+I was recently looking for some Nike shoes online. I closed that tab and opened Facebook. In a while, Nike shoe suggestion appeared at top of the page as a prompt. It is nothing but Artificial Intelligence."
+5,what is object oriented programming?,"Object-oriented programming (OOP) refers to a type of computer programming (software design) in which programmers define not only the data type of a data structure, but also the types of operations (functions) that can be applied to the data structure.
+In this way, the data structure becomes an object that includes both data and functions. In addition, programmers can create relationships between one object and another. For example, objects can inherit characteristics from other objects.
+If you are new to object-oriented programming languages, you will need to know a few basics before you can get started with code. The following definitions will help you better understand object-oriented programming:
+Abstraction: The process of picking out (abstracting) common features of objects and procedures.
+Class: A category of objects. The class defines all the common properties of the different objects that belong to it.
+Encapsulation: The process of combining elements to create a new entity. A procedure is a type of encapsulation because it combines a series of computer instructions.
+Information hiding: The process of hiding details of an object or function. Information hiding is a powerful programming technique because it reduces complexity.
+Inheritance: a feature that represents the is a relationship between different classes.
+Interface: the languages and codes that the applications use to communicate with each other and with the hardware.
+Messaging: Message passing is a form of communication used in parallel programming and object-oriented programming.
+Object: a self-contained entity that consists of both data and procedures to manipulate the data.
+Polymorphism: A programming language's ability to process objects differently depending on their data type or class.
+Procedure: a section of a program that performs a specific task."
+6,What is compiler?,"In computer science, a compiler is a software that translates high level code to low level code.
+High level code is programming language code, like C, C++, C#, Java, Pascal, Cobol, etc.
+Low level code (or machine code) is the machine language, a series of numbers (machine instructions) that are loaded into
+ the memory and executed by the CPU. Those instructions determine the actions the will be performed by the computer or device.
+What people use to call a program or an app is, in fact, a long series of machine instructions and other files all packed in a single file.
+ That file (the program), was generated by a compiler after
+ it translated many high level language code into machine code."
+ 
+7,What is polymorphism ?,"polymorphism is the property of something having many forms. A thing that has many forms is polymorphic. Appropriately, and perhaps confusingly, 
+  its meaning takes many forms, notably in computer science and biology. We’re interested in object-oriented programming languages so we’ll leave 
+  the other definitions to Wikipedia. In object-oriented languages there is more than one kind of polymorphism.
+Polymorphic References and Overriding:
+As developers we’re interested in substitution (swapping one kind of object for another), the ability to plug in new components with new behaviour 
+(creating new kinds of object) and to define general behaviour independently of the specific kind of object. That means we’re interested in having 
+many forms of object; in computer science we use the specific term ‘type’. Objects themselves aren’t polymorphic as an object has only one type.
+If objects don’t have many forms do classes? They define many types, so you might think so, but a class is its types, that is all of its subclasses and 
+their subclasses and so on. We can’t talk about a class having many forms as it is all of its forms.It’s the variable, the reference or pointer to the object, that is polymorphic. It can hold many forms of object. The class of the reference defines the
+ kind of objects that it can hold.Polymorphic references on their own wouldn’t quite get us what we want; on their own they would allow different kinds of object be substituted, but wouldn’t
+ allow their behaviour to change. Overriding is what allows a subclass to replace methods on the superclass with their own behaviour. If you couldn’t override
+ methods then all subclasses would behave in the same way. Overriding isn’t polymorphism, it’s just what makes it so useful."
+8,What is a file?,"A computer file is used to store data in digital format like plain text, image data, or any other content. Computer files can be organized inside different 
+ directories. Files are used to keep digital data, whereas directories are used to keep files.
+Computer files can be considered as the digital counterpart of paper documents. While programming, you keep your source code in text files with different extensions,
+ for example, C programming files end with the extension .c, Java programming files with .java, and Python files with .py."
+9,What is a pre-processor?,"A Preprocessor is a system software (a computer program that is designed to run on computer’s hardware and application programs). It performs preprocessing of the High Level
+ Language(HLL). Preprocessing is the first step of the language processing system. Language processing system translates the high level language to machine level language or 
+ absolute machine code(i.e. to the form that can be understood by machine).The preprocessor doesn’t know about the scope rules of C. Preprocessor directives like #define come into effect as soon as they are seen and remain in effect until the 
+end of the file that contains them; the program’s block structure is irrelevant."
+10,What is a character stream?,"The java.io package provides CharacterStream classes to overcome the limitations of ByteStream classes, which can only handle the 8-bit bytes and is not
+ compatible to work directly with the Unicode characters. CharacterStream classes are used to work with 16-bit Unicode characters. They can perform operations on characters,
+ char arrays and Strings.However, the CharacterStream classes are mainly used to read characters from the source and write them to the destination. For this purpose, the CharacterStream classes are
+ divided into two types of classes, I.e., Reader class and Writer class.
+ Reader Class:
+Reader class is used to read the 16-bit characters from the input stream. However, it is an abstract class and can't be instantiated, but there are various subclasses that inherit
+ the Reader class and override the methods of the Reader class. All methods of the Reader class throw an IOException.
+ Writer Class:
+Writer class is used to write 16-bit Unicode characters to the output stream. The methods of the Writer class generate IOException. Like Reader class, Writer class is also an abstract
+ class that cannot be instantiated; therefore, the subclasses of the Writer class are used to write the characters onto the output stream."
